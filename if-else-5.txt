@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class OddEvenCheck {
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Enter Gender: ");
+       String str=scan.next();
+        System.out.print("Enter value: ");
+       int per=scan.nextInt();
+        if (str.equals("female")) {
+            if(per>1 && per<59)
+            System.out.print("8.2%");
+            else if(per<101 && per>59)
+            System.out.print("9.2%");
+        }
+         else if (str.equals("male")) {
+            if(per>1 && per<59)
+            System.out.print("8.4%");
+            else if(per<101 && per>=59)
+            System.out.print("10.5%");
+        }
+    }
+}
