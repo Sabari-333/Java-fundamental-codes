@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter fir char: ");
+        char ch1 = sc.next().charAt(0);
+        System.out.print("Enter sec char: ");
+        char ch2 = sc.next().charAt(0);
+        if(ch1>ch2){
+            
+             char temp = ch1;
+             ch1=ch2;
+             ch2=temp;
+        }
+        
+            System.out.print(ch1+","+ch2);
+     }
+}
+
+output:Enter fir char:s
+       Enter sec char:e
+           e,s
+     
