@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the Message: ")
+        String s1=sc.nextLine();
+        
+        {
+             System.out.println(" Welcome "+s1);
+        }
+
+Output:
+       Enter the Message: John
+                Welcome John
