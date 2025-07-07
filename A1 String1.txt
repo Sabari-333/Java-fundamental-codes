@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int s1=sc.nextInt();
+        int s2=sc.nextInt();
+        int c = s1+s2;
+        {
+             System.out.println(" The Sum of 10 and 20 is "+c);
+        }
+
+
+output:
+   30
